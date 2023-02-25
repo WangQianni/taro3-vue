@@ -1,24 +1,24 @@
-import { Component } from 'react'
-import { View, Text } from '@tarojs/components'
-import './index.scss'
+import { Component } from "react";
+import { View, Text } from "@tarojs/components";
+import "./index.scss";
 
+const a = "qwe"
 export default class Index extends Component {
+  componentWillMount() {}
 
-  componentWillMount () { }
+  componentDidMount() {}
 
-  componentDidMount () { }
+  componentWillUnmount() {}
 
-  componentWillUnmount () { }
+  componentDidShow() {}
 
-  componentDidShow () { }
+  componentDidHide() {}
 
-  componentDidHide () { }
-
-  render () {
+  render() {
     return (
-      <View className='index'>
+      <View className="index">
         <Text>Hello world!</Text>
       </View>
-    )
+    );
   }
 }
